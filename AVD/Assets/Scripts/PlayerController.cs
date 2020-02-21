@@ -14,10 +14,8 @@ public class PlayerController : MonoBehaviour
     bool crouch = false;
     public float Gravity2D = -30f;
 
-    private void ChangeGravity(float g)
-    {
-    }
-
+    public GameObject bullet;
+    public Transform bulletStart;
 
     private void Start()
     {
@@ -25,11 +23,10 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        animator.SetFloat("hVelocity", Mathf.Abs(horizontalMove)); 
 
-         animator.SetFloat("hVelocity", Mathf.Abs(horizontalMove)); 
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
@@ -44,27 +41,28 @@ public class PlayerController : MonoBehaviour
         {
             crouch = false;
         }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(bullet, bulletStart);
+        }
     }
 
     public void OnLanding()
     {
         animator.SetBool("jumping", false);
-        jump = false;
     }
 
     public void OnCrouching(bool isCrouching)
     {
         animator.SetBool("crouching", isCrouching); 
-
     }
-
-
 
     void FixedUpdate()
     {
         // Move our character 
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-
+        jump = false;
         
     }
 }

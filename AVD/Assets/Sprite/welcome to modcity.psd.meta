@@ -140,10 +140,10 @@ TextureImporter:
       name: welcome to modcity_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 332
-        width: 1099
-        height: 407
+        x: 58
+        y: 327
+        width: 1173
+        height: 432
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
