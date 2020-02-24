@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("hVelocity", Mathf.Abs(horizontalMove)); 
 
@@ -44,7 +45,8 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Instantiate(bullet, bulletStart);
+            Debug.Log("bala disparada desde: " + bulletStart.position);
+            Instantiate(bullet, bulletStart.position, bulletStart.rotation);
         }
     }
 
