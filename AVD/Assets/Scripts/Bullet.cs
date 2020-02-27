@@ -4,35 +4,40 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     public float speed = 5f;
+    public int normalDamage = 20;
+    public Animator animator;
+
     private float time = 0.5f;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         rb.velocity = transform.right * speed;
     }
 
     void Update()
     {
-        CountdownToDeath();
+        transform.Rotate(0, 0, 30f * Time.deltaTime);
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        //Destroy(gameObject);
-    }
 
-    void CountdownToDeath()
+    void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        if (time > 0f)
+        if (!hitInfo.CompareTag("Player"))
         {
-            time -= Time.deltaTime;
+            if (hitInfo.CompareTag("Hitable"))
+            {
+                hitInfo.GetComponent<Hitable>().Execute(Style.Normal);
+            }
+            animator.SetTrigger("impact");
+            rb.velocity = Vector2.zero;
         }
-        else
-        {
-            Destroy(gameObject);
-        }   
     }
+
+    public void End()
+    {
+        Destroy(gameObject);
+    }
+    
 }

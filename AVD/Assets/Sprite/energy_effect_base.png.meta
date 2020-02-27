@@ -1,0 +1,2890 @@
+fileFormatVersion: 2
+guid: 92def3377756d2e4d8c787f5ffeb8024
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9120684224098305988
+    second: energy_effect_base_0
+  - first:
+      213: -6472816678989742846
+    second: energy_effect_base_1
+  - first:
+      213: -3695094851941518152
+    second: energy_effect_base_2
+  - first:
+      213: 6346107460198843795
+    second: energy_effect_base_3
+  - first:
+      213: -464852205911116268
+    second: energy_effect_base_4
+  - first:
+      213: 5945547094749303351
+    second: energy_effect_base_5
+  - first:
+      213: 4109619171675502993
+    second: energy_effect_base_6
+  - first:
+      213: -7865204201025161566
+    second: energy_effect_base_7
+  - first:
+      213: -5984535870073645270
+    second: energy_effect_base_8
+  - first:
+      213: 65503199020332581
+    second: energy_effect_base_9
+  - first:
+      213: -202729647648293283
+    second: energy_effect_base_10
+  - first:
+      213: -5039008227275665364
+    second: energy_effect_base_11
+  - first:
+      213: -1214078447059111335
+    second: energy_effect_base_12
+  - first:
+      213: -823383667195915507
+    second: energy_effect_base_13
+  - first:
+      213: 7966858674221822901
+    second: energy_effect_base_14
+  - first:
+      213: -2426034155730886507
+    second: energy_effect_base_15
+  - first:
+      213: -5019870024786214864
+    second: energy_effect_base_16
+  - first:
+      213: 3788710023508495708
+    second: energy_effect_base_17
+  - first:
+      213: -6666097548305091016
+    second: energy_effect_base_18
+  - first:
+      213: 6999864843559012720
+    second: energy_effect_base_19
+  - first:
+      213: 3870237887491191404
+    second: energy_effect_base_20
+  - first:
+      213: 223717949549695563
+    second: energy_effect_base_21
+  - first:
+      213: 1117084476965069368
+    second: energy_effect_base_22
+  - first:
+      213: -803356565451712745
+    second: energy_effect_base_23
+  - first:
+      213: 5310589448672535728
+    second: energy_effect_base_24
+  - first:
+      213: -4355798809031285531
+    second: energy_effect_base_25
+  - first:
+      213: 4379638634990798602
+    second: energy_effect_base_26
+  - first:
+      213: -2683038134081404413
+    second: energy_effect_base_27
+  - first:
+      213: -5542868540381053883
+    second: energy_effect_base_28
+  - first:
+      213: 1577856633924492443
+    second: energy_effect_base_29
+  - first:
+      213: 7014412953491344842
+    second: energy_effect_base_30
+  - first:
+      213: -6207268140719301679
+    second: energy_effect_base_31
+  - first:
+      213: 7837217375743770146
+    second: energy_effect_base_32
+  - first:
+      213: -3485551267310591412
+    second: energy_effect_base_33
+  - first:
+      213: -4071458388385526925
+    second: energy_effect_base_34
+  - first:
+      213: 6437652899435454752
+    second: energy_effect_base_35
+  - first:
+      213: 6963013868677694025
+    second: energy_effect_base_36
+  - first:
+      213: 7998844293111284005
+    second: energy_effect_base_37
+  - first:
+      213: 7937743878148083286
+    second: energy_effect_base_38
+  - first:
+      213: -5138715042922974399
+    second: energy_effect_base_39
+  - first:
+      213: -955499659976158902
+    second: energy_effect_base_40
+  - first:
+      213: -8743736939478755483
+    second: energy_effect_base_41
+  - first:
+      213: 1454511255157491995
+    second: energy_effect_base_42
+  - first:
+      213: 8955874443883687637
+    second: energy_effect_base_43
+  - first:
+      213: 4100610002171969052
+    second: energy_effect_base_44
+  - first:
+      213: 3482999117288140307
+    second: energy_effect_base_45
+  - first:
+      213: 5754938611427225507
+    second: energy_effect_base_46
+  - first:
+      213: 7328503195640305669
+    second: energy_effect_base_47
+  - first:
+      213: -2323224030383839322
+    second: energy_effect_base_48
+  - first:
+      213: 8414413328857925438
+    second: energy_effect_base_49
+  - first:
+      213: 4434575912121172110
+    second: energy_effect_base_50
+  - first:
+      213: 1968940920623018151
+    second: energy_effect_base_51
+  - first:
+      213: 2497603695578081903
+    second: energy_effect_base_52
+  - first:
+      213: -8774269522758183148
+    second: energy_effect_base_53
+  - first:
+      213: 6012839298101056535
+    second: energy_effect_base_54
+  - first:
+      213: 1254302258079367579
+    second: energy_effect_base_55
+  - first:
+      213: -1832918545462879850
+    second: energy_effect_base_56
+  - first:
+      213: 5058608724638522515
+    second: energy_effect_base_57
+  - first:
+      213: -6288338108954560604
+    second: energy_effect_base_58
+  - first:
+      213: 326799592009698314
+    second: energy_effect_base_59
+  - first:
+      213: 124809762533358271
+    second: energy_effect_base_60
+  - first:
+      213: 84025750943499529
+    second: energy_effect_base_61
+  - first:
+      213: -427277964367547461
+    second: energy_effect_base_62
+  - first:
+      213: -2662369074226807899
+    second: energy_effect_base_63
+  - first:
+      213: 6101482329666594841
+    second: energy_effect_base_64
+  - first:
+      213: -7641476355784003445
+    second: energy_effect_base_65
+  - first:
+      213: -16324200374196722
+    second: energy_effect_base_66
+  - first:
+      213: 8625677630735957848
+    second: energy_effect_base_67
+  - first:
+      213: -6610903001049431708
+    second: energy_effect_base_68
+  - first:
+      213: 5643903791671218276
+    second: energy_effect_base_69
+  - first:
+      213: 705267210118349412
+    second: energy_effect_base_70
+  - first:
+      213: -392147218071814250
+    second: energy_effect_base_71
+  - first:
+      213: 2780283878502481163
+    second: energy_effect_base_72
+  - first:
+      213: -6161171958477311053
+    second: energy_effect_base_73
+  - first:
+      213: 6066515115498745054
+    second: energy_effect_base_74
+  - first:
+      213: 6091703486731914312
+    second: energy_effect_base_75
+  - first:
+      213: -4487217574016071908
+    second: energy_effect_base_76
+  - first:
+      213: 8271032441630512810
+    second: energy_effect_base_77
+  - first:
+      213: -5175045314741201135
+    second: energy_effect_base_78
+  - first:
+      213: -3768698231095759612
+    second: energy_effect_base_79
+  - first:
+      213: 2742941964199089075
+    second: energy_effect_base_80
+  - first:
+      213: 7862824885611164013
+    second: energy_effect_base_81
+  - first:
+      213: 2251296674821361032
+    second: energy_effect_base_82
+  - first:
+      213: -1970527521690136879
+    second: energy_effect_base_83
+  - first:
+      213: 612108369356358716
+    second: energy_effect_base_84
+  - first:
+      213: 4914646731432247882
+    second: energy_effect_base_85
+  - first:
+      213: -7880968011747694367
+    second: energy_effect_base_86
+  - first:
+      213: -7122441639085810497
+    second: energy_effect_base_87
+  - first:
+      213: 6622614055500697283
+    second: energy_effect_base_88
+  - first:
+      213: -7389743761124983850
+    second: energy_effect_base_89
+  - first:
+      213: -3708861054999168964
+    second: energy_effect_base_90
+  - first:
+      213: -8019056104894412437
+    second: energy_effect_base_91
+  - first:
+      213: -8436072179274667436
+    second: energy_effect_base_92
+  - first:
+      213: 5302327836026423174
+    second: energy_effect_base_93
+  - first:
+      213: -1380033394522297522
+    second: energy_effect_base_94
+  - first:
+      213: 861780518560847868
+    second: energy_effect_base_95
+  - first:
+      213: -7330828550039766614
+    second: energy_effect_base_96
+  - first:
+      213: -5030904991983677006
+    second: energy_effect_base_97
+  - first:
+      213: -5134692126212494575
+    second: energy_effect_base_98
+  - first:
+      213: -5766588857922982209
+    second: energy_effect_base_99
+  - first:
+      213: -6676902692174009932
+    second: energy_effect_base_100
+  - first:
+      213: -744043152319131562
+    second: energy_effect_base_101
+  - first:
+      213: 1847379215439527392
+    second: energy_effect_base_102
+  - first:
+      213: -1523777148985978433
+    second: energy_effect_base_103
+  - first:
+      213: -655855793982531879
+    second: energy_effect_base_104
+  - first:
+      213: -5644334934095067144
+    second: energy_effect_base_105
+  - first:
+      213: -8976021772980474758
+    second: energy_effect_base_106
+  - first:
+      213: 5863612210981279184
+    second: energy_effect_base_107
+  - first:
+      213: -1161519717737121597
+    second: energy_effect_base_108
+  - first:
+      213: 8662809437410126919
+    second: energy_effect_base_109
+  - first:
+      213: 4885555135850629356
+    second: energy_effect_base_110
+  - first:
+      213: 1257433430035762515
+    second: energy_effect_base_111
+  - first:
+      213: -6267159037092047516
+    second: energy_effect_base_112
+  - first:
+      213: -7022419177895457493
+    second: energy_effect_base_113
+  - first:
+      213: -7527449344676090987
+    second: energy_effect_base_114
+  - first:
+      213: -4841726280245607897
+    second: energy_effect_base_115
+  - first:
+      213: 6750366434659391402
+    second: energy_effect_base_116
+  - first:
+      213: 6609951906401627306
+    second: energy_effect_base_117
+  - first:
+      213: -1654249850484296458
+    second: energy_effect_base_118
+  - first:
+      213: -7302631407634699890
+    second: energy_effect_base_119
+  - first:
+      213: 5602743430375168321
+    second: energy_effect_base_120
+  - first:
+      213: -7201470244001712229
+    second: energy_effect_base_121
+  - first:
+      213: -6823447209489012749
+    second: energy_effect_base_122
+  - first:
+      213: 6928095235213539971
+    second: energy_effect_base_123
+  - first:
+      213: -1673739849402987176
+    second: energy_effect_base_124
+  - first:
+      213: 5433370215010435487
+    second: energy_effect_base_125
+  - first:
+      213: -8167353460323679770
+    second: energy_effect_base_126
+  - first:
+      213: -837043442844423113
+    second: energy_effect_base_127
+  - first:
+      213: 4892503313077812185
+    second: energy_effect_base_128
+  - first:
+      213: -578193199130330091
+    second: energy_effect_base_129
+  - first:
+      213: -7246051459145709435
+    second: energy_effect_base_130
+  - first:
+      213: -9215895511871612128
+    second: energy_effect_base_131
+  - first:
+      213: -7331326627433526719
+    second: energy_effect_base_132
+  - first:
+      213: 1954270412459286813
+    second: energy_effect_base_133
+  - first:
+      213: -7169935907832190371
+    second: energy_effect_base_134
+  - first:
+      213: 2314283546992079996
+    second: energy_effect_base_135
+  - first:
+      213: -425197540462981973
+    second: energy_effect_base_136
+  - first:
+      213: -7690989833118889710
+    second: energy_effect_base_137
+  - first:
+      213: 7217059043748117101
+    second: energy_effect_base_138
+  - first:
+      213: -5658316254868925016
+    second: energy_effect_base_139
+  - first:
+      213: -4607651373028425307
+    second: energy_effect_base_140
+  - first:
+      213: 6397229601944447858
+    second: energy_effect_base_141
+  - first:
+      213: 6142750971245482587
+    second: energy_effect_base_142
+  - first:
+      213: -5667782474418959996
+    second: energy_effect_base_143
+  - first:
+      213: -8795750838379134722
+    second: energy_effect_base_144
+  - first:
+      213: -3872830663501026505
+    second: energy_effect_base_145
+  - first:
+      213: 672346760029055097
+    second: energy_effect_base_146
+  - first:
+      213: -3486822079193179227
+    second: energy_effect_base_147
+  - first:
+      213: -746639154886803493
+    second: energy_effect_base_148
+  - first:
+      213: 3228398178156635441
+    second: energy_effect_base_149
+  - first:
+      213: 1460037097194148873
+    second: energy_effect_base_150
+  - first:
+      213: -5514650998873339048
+    second: energy_effect_base_151
+  - first:
+      213: -2742639449458081278
+    second: energy_effect_base_152
+  - first:
+      213: -4361240854693482465
+    second: energy_effect_base_153
+  - first:
+      213: 417244232445007163
+    second: energy_effect_base_154
+  - first:
+      213: -5709783470410625015
+    second: energy_effect_base_155
+  - first:
+      213: -6990186169977451774
+    second: energy_effect_base_156
+  - first:
+      213: 7154718537921874591
+    second: energy_effect_base_157
+  - first:
+      213: -16528525722903373
+    second: energy_effect_base_158
+  - first:
+      213: -3655991249524617908
+    second: energy_effect_base_159
+  - first:
+      213: 1466442009064948578
+    second: energy_effect_base_160
+  - first:
+      213: 8701385002487983093
+    second: energy_effect_base_161
+  - first:
+      213: -2490262654199665721
+    second: energy_effect_base_162
+  - first:
+      213: 4999839891649811232
+    second: energy_effect_base_163
+  - first:
+      213: -8513062756135666987
+    second: energy_effect_base_164
+  - first:
+      213: -8431375808480737176
+    second: energy_effect_base_165
+  - first:
+      213: 1241109735116939878
+    second: energy_effect_base_166
+  - first:
+      213: 7683029709427624630
+    second: energy_effect_base_167
+  - first:
+      213: -596903244392377637
+    second: energy_effect_base_168
+  - first:
+      213: 8041270923297366799
+    second: energy_effect_base_169
+  - first:
+      213: 4893836452917200940
+    second: energy_effect_base_170
+  - first:
+      213: 4037694975138088832
+    second: energy_effect_base_171
+  - first:
+      213: -1557711678732860222
+    second: energy_effect_base_172
+  - first:
+      213: -5556138772456010930
+    second: energy_effect_base_173
+  - first:
+      213: -3542361447303192340
+    second: energy_effect_base_174
+  - first:
+      213: 3219087295365465575
+    second: energy_effect_base_175
+  - first:
+      213: 7974098322167597654
+    second: energy_effect_base_176
+  - first:
+      213: -8553414880880530586
+    second: energy_effect_base_177
+  - first:
+      213: 152424177024953972
+    second: energy_effect_base_178
+  - first:
+      213: -4875520352963339791
+    second: energy_effect_base_179
+  - first:
+      213: -866893115478388519
+    second: energy_effect_base_180
+  - first:
+      213: 7515765816950802630
+    second: energy_effect_base_181
+  - first:
+      213: -7379005333539522103
+    second: energy_effect_base_182
+  - first:
+      213: -791657336844431040
+    second: energy_effect_base_183
+  - first:
+      213: -23664966443574430
+    second: energy_effect_base_184
+  - first:
+      213: -2670716658701336098
+    second: energy_effect_base_185
+  - first:
+      213: 5014834940713045875
+    second: energy_effect_base_186
+  - first:
+      213: 6985101116887475100
+    second: energy_effect_base_187
+  - first:
+      213: -4395604572821042680
+    second: energy_effect_base_188
+  - first:
+      213: -8260518131846445976
+    second: energy_effect_base_189
+  - first:
+      213: -7573577186520600655
+    second: energy_effect_base_190
+  - first:
+      213: -8374194184903096155
+    second: energy_effect_base_191
+  - first:
+      213: -8180156645272530351
+    second: energy_effect_base_192
+  - first:
+      213: -3294792473468277464
+    second: energy_effect_base_193
+  - first:
+      213: 3246120654569789171
+    second: energy_effect_base_194
+  - first:
+      213: -8008271319052831434
+    second: energy_effect_base_195
+  - first:
+      213: -3437111676855728198
+    second: energy_effect_base_196
+  - first:
+      213: -691972714449417172
+    second: energy_effect_base_197
+  - first:
+      213: 4694308043026413950
+    second: energy_effect_base_198
+  - first:
+      213: 6318697158812692771
+    second: energy_effect_base_199
+  - first:
+      213: 3843590859844832080
+    second: energy_effect_base_200
+  - first:
+      213: 7244164470969439551
+    second: energy_effect_base_201
+  - first:
+      213: 8910067855105183923
+    second: energy_effect_base_202
+  - first:
+      213: 2617325050865921299
+    second: energy_effect_base_203
+  - first:
+      213: 5477011039734783667
+    second: energy_effect_base_204
+  - first:
+      213: 2146021397508056445
+    second: energy_effect_base_205
+  - first:
+      213: 4128885480437821048
+    second: energy_effect_base_206
+  - first:
+      213: 6777512676677627573
+    second: energy_effect_base_207
+  - first:
+      213: 2828300043432675011
+    second: energy_effect_base_208
+  - first:
+      213: -4269551815818732576
+    second: energy_effect_base_209
+  - first:
+      213: 1062637741060096364
+    second: energy_effect_base_210
+  - first:
+      213: -7275315681379216183
+    second: energy_effect_base_211
+  - first:
+      213: 7846564203345912638
+    second: energy_effect_base_212
+  - first:
+      213: 4879857045983065543
+    second: energy_effect_base_213
+  - first:
+      213: -3133668524683373828
+    second: energy_effect_base_214
+  - first:
+      213: -9211741348896025377
+    second: energy_effect_base_215
+  - first:
+      213: -7687502290533650941
+    second: energy_effect_base_216
+  - first:
+      213: 5345193833240739736
+    second: energy_effect_base_217
+  - first:
+      213: 3133704428084911581
+    second: energy_effect_base_218
+  - first:
+      213: 5528543211347262038
+    second: energy_effect_base_219
+  - first:
+      213: -4602366996240609124
+    second: energy_effect_base_220
+  - first:
+      213: -9197615092769829415
+    second: energy_effect_base_221
+  - first:
+      213: -1495782354718185169
+    second: energy_effect_base_222
+  - first:
+      213: -6562586352220221135
+    second: energy_effect_base_223
+  - first:
+      213: -765882717439986191
+    second: energy_effect_base_224
+  - first:
+      213: -4175030247882221537
+    second: energy_effect_base_225
+  - first:
+      213: -8939350461908148285
+    second: energy_effect_base_226
+  - first:
+      213: 5228961307466577919
+    second: energy_effect_base_227
+  - first:
+      213: -373058132142101773
+    second: energy_effect_base_228
+  - first:
+      213: 6129217203933867274
+    second: energy_effect_base_229
+  - first:
+      213: -1039383519343766863
+    second: energy_effect_base_230
+  - first:
+      213: -3771680063363610681
+    second: energy_effect_base_231
+  - first:
+      213: -663207959862704962
+    second: energy_effect_base_232
+  - first:
+      213: 8960475372111201749
+    second: energy_effect_base_233
+  - first:
+      213: 4969980458582711818
+    second: energy_effect_base_234
+  - first:
+      213: -1332538165173874382
+    second: energy_effect_base_235
+  - first:
+      213: 4550182157891063016
+    second: energy_effect_base_236
+  - first:
+      213: 613127567203531066
+    second: energy_effect_base_237
+  - first:
+      213: 7254506718382262110
+    second: energy_effect_base_238
+  - first:
+      213: -5974944187462120154
+    second: energy_effect_base_239
+  - first:
+      213: 6060087974615073908
+    second: energy_effect_base_240
+  - first:
+      213: 1951158784467509178
+    second: energy_effect_base_241
+  - first:
+      213: 3836805057636305427
+    second: energy_effect_base_242
+  - first:
+      213: -8280396921178591660
+    second: energy_effect_base_243
+  - first:
+      213: -5053413758263629528
+    second: energy_effect_base_244
+  - first:
+      213: -2357923935779099250
+    second: energy_effect_base_245
+  - first:
+      213: 9193264430877298390
+    second: energy_effect_base_246
+  - first:
+      213: 8763847452052085976
+    second: energy_effect_base_247
+  - first:
+      213: -8419676566756690645
+    second: energy_effect_base_248
+  - first:
+      213: -5253761446179936798
+    second: energy_effect_base_249
+  - first:
+      213: -521623962562619751
+    second: energy_effect_base_250
+  - first:
+      213: -8990661996724185457
+    second: energy_effect_base_251
+  - first:
+      213: -1428925583992477254
+    second: energy_effect_base_252
+  - first:
+      213: -5722912576426976928
+    second: energy_effect_base_253
+  - first:
+      213: -6597527337160875053
+    second: energy_effect_base_254
+  - first:
+      213: 8569021574096286787
+    second: energy_effect_base_255
+  - first:
+      213: 2515040266147306770
+    second: energy_effect_base_256
+  - first:
+      213: 1750166817659765468
+    second: energy_effect_base_257
+  - first:
+      213: -186637605501313296
+    second: energy_effect_base_258
+  - first:
+      213: 2996141371263498650
+    second: energy_effect_base_259
+  - first:
+      213: 4698364716335357109
+    second: energy_effect_base_260
+  - first:
+      213: -3602859789856278238
+    second: energy_effect_base_261
+  - first:
+      213: 3547133237712266309
+    second: energy_effect_base_262
+  - first:
+      213: 3529644520710272715
+    second: energy_effect_base_263
+  - first:
+      213: -2380078640676769270
+    second: energy_effect_base_264
+  - first:
+      213: 5464911906697503452
+    second: energy_effect_base_265
+  - first:
+      213: 8896268338211384769
+    second: energy_effect_base_266
+  - first:
+      213: -1038546345333544840
+    second: energy_effect_base_267
+  - first:
+      213: -6753942531858815139
+    second: energy_effect_base_268
+  - first:
+      213: -7283931568317429053
+    second: energy_effect_base_269
+  - first:
+      213: -3737191538694646958
+    second: energy_effect_base_270
+  - first:
+      213: -1151367329515282798
+    second: energy_effect_base_271
+  - first:
+      213: -1615600386090416352
+    second: energy_effect_base_272
+  - first:
+      213: -6989323903632673951
+    second: energy_effect_base_273
+  - first:
+      213: -7604723574666233085
+    second: energy_effect_base_274
+  - first:
+      213: 3163831042510093598
+    second: energy_effect_base_275
+  - first:
+      213: -7271812259098488739
+    second: energy_effect_base_276
+  - first:
+      213: -7100257686754203672
+    second: energy_effect_base_277
+  - first:
+      213: -7557842948235926985
+    second: energy_effect_base_278
+  - first:
+      213: -6746534608647070333
+    second: energy_effect_base_279
+  - first:
+      213: -8481841743160891796
+    second: energy_effect_base_280
+  - first:
+      213: -2154443234506719761
+    second: energy_effect_base_281
+  - first:
+      213: 5824870745552419023
+    second: energy_effect_base_282
+  - first:
+      213: -2219994855540234219
+    second: energy_effect_base_283
+  - first:
+      213: -6791037118740895137
+    second: energy_effect_base_284
+  - first:
+      213: 1734304769108245512
+    second: energy_effect_base_285
+  - first:
+      213: 2081975991164375620
+    second: energy_effect_base_286
+  - first:
+      213: 7274594398020812116
+    second: energy_effect_base_287
+  - first:
+      213: -2468666866850793897
+    second: energy_effect_base_288
+  - first:
+      213: -8857833924910012981
+    second: energy_effect_base_289
+  - first:
+      213: 5512414913937040223
+    second: energy_effect_base_290
+  - first:
+      213: 2395651830978251389
+    second: energy_effect_base_291
+  - first:
+      213: -4327460581205792887
+    second: energy_effect_base_292
+  - first:
+      213: 8343187337756024754
+    second: energy_effect_base_293
+  - first:
+      213: 9041792431063482262
+    second: energy_effect_base_294
+  - first:
+      213: -8620778395172295572
+    second: energy_effect_base_295
+  - first:
+      213: 646318344465560209
+    second: energy_effect_base_296
+  - first:
+      213: -6565626208118851453
+    second: energy_effect_base_297
+  - first:
+      213: 4502409033708447819
+    second: energy_effect_base_298
+  - first:
+      213: -4431692998108004135
+    second: energy_effect_base_299
+  - first:
+      213: -3379162086040686429
+    second: energy_effect_base_300
+  - first:
+      213: -3412111357593308921
+    second: energy_effect_base_301
+  - first:
+      213: -2503505913645818134
+    second: energy_effect_base_302
+  - first:
+      213: 7675685527405774812
+    second: energy_effect_base_303
+  - first:
+      213: -6175243389571384777
+    second: energy_effect_base_304
+  - first:
+      213: 6346117313043341029
+    second: energy_effect_base_305
+  - first:
+      213: 7739768983572453028
+    second: energy_effect_base_306
+  - first:
+      213: 1129450802601537323
+    second: energy_effect_base_307
+  - first:
+      213: 5053090416707281577
+    second: energy_effect_base_308
+  - first:
+      213: 5759421660618739293
+    second: energy_effect_base_309
+  - first:
+      213: 2619346039047669265
+    second: energy_effect_base_310
+  - first:
+      213: 5289280276990092274
+    second: energy_effect_base_311
+  - first:
+      213: 5862967768912646310
+    second: energy_effect_base_312
+  - first:
+      213: 1700616717158095516
+    second: energy_effect_base_313
+  - first:
+      213: -8382942514384254192
+    second: energy_effect_base_314
+  - first:
+      213: 8956097018902713708
+    second: energy_effect_base_315
+  - first:
+      213: 8898496850260263114
+    second: energy_effect_base_316
+  - first:
+      213: -4135273971133296316
+    second: energy_effect_base_317
+  - first:
+      213: -3234113855936044212
+    second: energy_effect_base_318
+  - first:
+      213: 42686994384986710
+    second: energy_effect_base_319
+  - first:
+      213: 5021826987309062413
+    second: energy_effect_base_320
+  - first:
+      213: -3515856219365621817
+    second: energy_effect_base_321
+  - first:
+      213: -8253071154029492534
+    second: energy_effect_base_322
+  - first:
+      213: -6092645716436140802
+    second: energy_effect_base_323
+  - first:
+      213: -3095820007638883293
+    second: energy_effect_base_324
+  - first:
+      213: 6812145782746374056
+    second: energy_effect_base_325
+  - first:
+      213: -281792349422509044
+    second: energy_effect_base_326
+  - first:
+      213: 7982783283083441702
+    second: energy_effect_base_327
+  - first:
+      213: -2629306525214228538
+    second: energy_effect_base_328
+  - first:
+      213: 2752513867813324142
+    second: energy_effect_base_329
+  - first:
+      213: 4557518446139273159
+    second: energy_effect_base_330
+  - first:
+      213: 3475824211439962049
+    second: energy_effect_base_331
+  - first:
+      213: -6655696625214456017
+    second: energy_effect_base_332
+  - first:
+      213: 7176527913427301523
+    second: energy_effect_base_333
+  - first:
+      213: -4419475897301774663
+    second: energy_effect_base_334
+  - first:
+      213: 966229826652183235
+    second: energy_effect_base_335
+  - first:
+      213: -4322954944275996421
+    second: energy_effect_base_336
+  - first:
+      213: -8317982114898953332
+    second: energy_effect_base_337
+  - first:
+      213: 2001506280221816606
+    second: energy_effect_base_338
+  - first:
+      213: -7334779627737659720
+    second: energy_effect_base_339
+  - first:
+      213: 396033674975755882
+    second: energy_effect_base_340
+  - first:
+      213: -6124278542615221945
+    second: energy_effect_base_341
+  - first:
+      213: 5104620441215178553
+    second: energy_effect_base_342
+  - first:
+      213: 7499970499187726089
+    second: energy_effect_base_343
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: energy_effect_base_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c387c1a8502dc6180800000000000000
+      internalID: -9120684224098305988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20db790668feb26a0800000000000000
+      internalID: -6472816678989742846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4b6a24fc268bcc0800000000000000
+      internalID: -3695094851941518152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395cb97ac17e11850800000000000000
+      internalID: 6346107460198843795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4167c91b1638c89f0800000000000000
+      internalID: -464852205911116268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73253e1f493d28250800000000000000
+      internalID: 5945547094749303351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1997ad9ecdc480930800000000000000
+      internalID: 4109619171675502993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a63cf7637e29d290800000000000000
+      internalID: -7865204201025161566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a275da66558a2fca0800000000000000
+      internalID: -5984535870073645270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526324dffc6b8e000800000000000000
+      internalID: 65503199020332581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ebb76a572cf2df0800000000000000
+      internalID: -202729647648293283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2096f017b8d11ab0800000000000000
+      internalID: -5039008227275665364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9527599b51ab62fe0800000000000000
+      internalID: -1214078447059111335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03ddeacae0c294f0800000000000000
+      internalID: -823383667195915507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b33bb401c7ff8e60800000000000000
+      internalID: 7966858674221822901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59022bef9cef45ed0800000000000000
+      internalID: -2426034155730886507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0308cf11fc6d55ab0800000000000000
+      internalID: -5019870024786214864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d8f2461b3349430800000000000000
+      internalID: 3788710023508495708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8363c2b29934d73a0800000000000000
+      internalID: -6666097548305091016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07984140df3842160800000000000000
+      internalID: 6999864843559012720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62bb207ad8d5b530800000000000000
+      internalID: 3870237887491191404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42d9c03a4eca1300800000000000000
+      internalID: 223717949549695563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8322b99c96ea08f00800000000000000
+      internalID: 1117084476965069368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717d548c577e9d4f0800000000000000
+      internalID: -803356565451712745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4601487f003b940800000000000000
+      internalID: 5310589448672535728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4ee9aaf081d83c0800000000000000
+      internalID: -4355798809031285531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07043b522a97cc30800000000000000
+      internalID: 4379638634990798602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302404b480fe3cad0800000000000000
+      internalID: -2683038134081404413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c36ed0e66c313b0800000000000000
+      internalID: -5542868540381053883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c109baf3ca5e510800000000000000
+      internalID: 1577856633924492443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd00c0da63385160800000000000000
+      internalID: 7014412953491344842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db93d6738a5bd9a0800000000000000
+      internalID: -6207268140719301679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ef9bc0ea363cc60800000000000000
+      internalID: 7837217375743770146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c422a81f695d0afc0800000000000000
+      internalID: -3485551267310591412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b0f72da264f77c0800000000000000
+      internalID: -4071458388385526925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0212d123433275950800000000000000
+      internalID: 6437652899435454752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94207a0d83891a060800000000000000
+      internalID: 6963013868677694025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5210f80418a910f60800000000000000
+      internalID: 7998844293111284005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e4c0f4008882e60800000000000000
+      internalID: 7937743878148083286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143be9005ed9fa8b0800000000000000
+      internalID: -5138715042922974399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_40
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a415d182f126db2f0800000000000000
+      internalID: -955499659976158902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56758e0749108a680800000000000000
+      internalID: -8743736939478755483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19487db7467f2410800000000000000
+      internalID: 1454511255157491995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deafa04b58a94c70800000000000000
+      internalID: 8955874443883687637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ebfdd221b48e830800000000000000
+      internalID: 4100610002171969052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e65f25e39165030800000000000000
+      internalID: 3482999117288140307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afac461d26addf40800000000000000
+      internalID: 5754938611427225507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508947f04d214b560800000000000000
+      internalID: 7328503195640305669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7e157ad0042cfd0800000000000000
+      internalID: -2323224030383839322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3783e3575006c470800000000000000
+      internalID: 8414413328857925438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e808c73fb47ca8d30800000000000000
+      internalID: 4434575912121172110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0377dd555135b10800000000000000
+      internalID: 1968940920623018151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_52
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a62a8045549a220800000000000000
+      internalID: 2497603695578081903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417567c6b588b3680800000000000000
+      internalID: -8774269522758183148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71492d6fb75e17350800000000000000
+      internalID: 6012839298101056535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b918ac5124d286110800000000000000
+      internalID: 1254302258079367579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699957b4b4a2096e0800000000000000
+      internalID: -1832918545462879850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c55c955d9c33640800000000000000
+      internalID: 5058608724638522515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a736349ec55bb8a0800000000000000
+      internalID: -6288338108954560604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c0b7a5f76098400800000000000000
+      internalID: 326799592009698314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba3d4851d96bb100800000000000000
+      internalID: 124809762533358271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90509fca9f48a2100800000000000000
+      internalID: 84025750943499529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3358984f0021af0800000000000000
+      internalID: -427277964367547461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abb9bdce6d5d0bd0800000000000000
+      internalID: -2662369074226807899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_64
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918a91f0ad1dca450800000000000000
+      internalID: 6101482329666594841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_65
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b2fd9db504f590800000000000000
+      internalID: -7641476355784003445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_66
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06247be93106cff0800000000000000
+      internalID: -16324200374196722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fbc07ba1094b770800000000000000
+      internalID: 8625677630735957848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46182e12fba5144a0800000000000000
+      internalID: -6610903001049431708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4601b09889c235e40800000000000000
+      internalID: 5643903791671218276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462c5da7acc99c900800000000000000
+      internalID: 705267210118349412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ffb2fce20de8af0800000000000000
+      internalID: -392147218071814250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0db2e8f47d859620800000000000000
+      internalID: 2780283878502481163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3bcde3fbe1f7aa0800000000000000
+      internalID: -6161171958477311053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc27d31b57903450800000000000000
+      internalID: 6066515115498745054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c0aa3cb041a8450800000000000000
+      internalID: 6091703486731914312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c1e604633ab1c0800000000000000
+      internalID: -4487217574016071908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa65e111f2c98c270800000000000000
+      internalID: 8271032441630512810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1171d4e64bb8e28b0800000000000000
+      internalID: -5175045314741201135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40de4ed1de4e2bbc0800000000000000
+      internalID: -3768698231095759612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b359970f23e01620800000000000000
+      internalID: 2742941964199089075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6174fd039d5e1d60800000000000000
+      internalID: 7862824885611164013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_effect_base_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dcebad5663e3f10800000000000000
+      internalID: 2251296674821361032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c6101d0042d5c8e4c9ef1ad24ea33593
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

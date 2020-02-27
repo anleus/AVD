@@ -10,12 +10,12 @@ PrefabInstance:
     - target: {fileID: 539923935709856084, guid: da791f3abc7ec024f96af1c9c12a2cf6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.682
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 539923935709856084, guid: da791f3abc7ec024f96af1c9c12a2cf6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.538
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 539923935709856084, guid: da791f3abc7ec024f96af1c9c12a2cf6,
         type: 3}
@@ -65,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 539923935709856089, guid: da791f3abc7ec024f96af1c9c12a2cf6,
         type: 3}
       propertyPath: m_Name
-      value: Item
+      value: Cherry
       objectReference: {fileID: 0}
     - target: {fileID: 539923935709856090, guid: da791f3abc7ec024f96af1c9c12a2cf6,
         type: 3}

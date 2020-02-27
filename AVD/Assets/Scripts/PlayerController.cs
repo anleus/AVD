@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     bool crouch = false;
     public float Gravity2D = -30f;
 
-    public GameObject bullet;
     public Transform bulletStart;
 
     private void Start()
@@ -24,7 +23,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("hVelocity", Mathf.Abs(horizontalMove)); 
 
@@ -41,12 +39,6 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
-        }
-
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Debug.Log("bala disparada desde: " + bulletStart.position);
-            Instantiate(bullet, bulletStart.position, bulletStart.rotation);
         }
     }
 
