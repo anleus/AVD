@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour, Hitable
+public class EnemyFrog : MonoBehaviour, Hitable
 {
     public int health = 100;
-    private int normalDamage = 20;
-    private int constantDamage = 5;
+    private int normalDamage = 30;
+    private int constantDamage = 15;
+    private bool isDead = false;
     private Animator animator;
 
     void Start()
@@ -36,9 +37,11 @@ public class Enemy : MonoBehaviour, Hitable
                 break;
         }
 
-        if (health <= 0)
+        if (health <= 0 && !isDead)
         {
+            isDead = true;
             animator.SetTrigger("dead");
+            
         }
     }
 

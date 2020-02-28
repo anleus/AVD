@@ -9,18 +9,10 @@ public class Bullet : MonoBehaviour
     public int normalDamage = 20;
     public Animator animator;
 
-    private float time = 0.5f;
-
     void Start()
     {
         rb.velocity = transform.right * speed;
     }
-
-    void Update()
-    {
-        transform.Rotate(0, 0, 30f * Time.deltaTime);
-    }
-
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
@@ -28,7 +20,11 @@ public class Bullet : MonoBehaviour
         {
             if (hitInfo.CompareTag("Hitable"))
             {
-                hitInfo.GetComponent<Hitable>().Execute(Style.Normal);
+                try
+                {
+                    hitInfo.GetComponent<Hitable>().Execute(Style.Normal);
+                } catch { }
+                
             }
             animator.SetTrigger("impact");
             rb.velocity = Vector2.zero;

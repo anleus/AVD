@@ -385,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 149361544}
   m_Layer: 0
-  m_Name: head
+  m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1850,7 +1850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 695167337}
   m_Layer: 0
-  m_Name: feet
+  m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2238,6 +2238,7 @@ GameObject:
   - component: {fileID: 860456013}
   - component: {fileID: 860456014}
   - component: {fileID: 860456015}
+  - component: {fileID: 860456016}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2426,8 +2427,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPoint: {fileID: 1332320067}
   bullet: {fileID: 6302831245637230873, guid: 9bf512551c9c7784e8e3309792fc29fc, type: 3}
-  laser: {fileID: 4052783257453260674, guid: bfd39d8ced583c241b5f2dcc75918b25, type: 3}
+  laser: {fileID: 8713908614759291685, guid: 7cbab72a77b6c454d9792aa77e388444, type: 3}
+  stats: {fileID: 860456016}
   style: 1
+--- !u!114 &860456016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860456007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1fbd076fbcefd647aa42ffae3161229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifes: 0
+  energy: 0
+  score: 0
 --- !u!1 &921603075
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,13 @@ public class Shooting : MonoBehaviour
     public Transform bulletPoint;
     public GameObject bullet;
     public GameObject laser;
+    public PlayerStats stats;
+
+    private GameObject laserShot;
+    private bool isLaser = false;
+
     public Style style;
+
     
     void Update()
     {
@@ -22,6 +28,15 @@ public class Shooting : MonoBehaviour
         {
             Shoot();
         }
+
+        if ((Input.GetButtonUp("Fire1") && laserShot != null) || stats.energy <= 0f)
+        {
+            Destroy(laserShot);
+            isLaser = false;
+        }
+
+        if (isLaser) stats.energy -= Time.deltaTime * 20;
+
     }
 
     void Shoot()
@@ -32,14 +47,12 @@ public class Shooting : MonoBehaviour
         }
         else
         {
-            RaycastHit2D hitInfo = Physics2D.Raycast(bulletPoint.position, bulletPoint.right);
-
-            if (hitInfo)
-            {
-                hitInfo.transform.GetComponent<Hitable>().Execute(style);
-            }
+            isLaser = true;
+            laserShot = Instantiate(laser, bulletPoint.position, bulletPoint.rotation);
+            laserShot.GetComponent<Laser>().ShotLaser(bulletPoint); 
         }
     }
+
 
     void AlternateStyle()
     {
