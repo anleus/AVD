@@ -102,7 +102,6 @@ MonoBehaviour:
   speed: 5
   normalDamage: 20
   animator: {fileID: 6147738001635292501}
-  type: 0
 --- !u!50 &1978179867950877266
 Rigidbody2D:
   serializedVersion: 4
@@ -137,9 +136,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07929567, y: -0.008581877}
+  m_Offset: {x: 0.06670754, y: -0.0033985227}
   serializedVersion: 2
-  m_Radius: 0.059374787
+  m_Radius: 0.041603297
 --- !u!95 &6147738001635292501
 Animator:
   serializedVersion: 3

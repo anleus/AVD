@@ -26,6 +26,7 @@ public class Bullet : MonoBehaviour
                 } catch { }
                 
             }
+            Debug.Log(hitInfo.name);
             animator.SetTrigger("impact");
             rb.velocity = Vector2.zero;
         }
