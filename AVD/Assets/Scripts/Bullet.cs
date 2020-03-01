@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        if (!hitInfo.CompareTag("Player"))
+        if (!hitInfo.CompareTag("Player") || !hitInfo.CompareTag("Turn")) 
         {
             if (hitInfo.CompareTag("Hitable"))
             {
@@ -26,7 +26,6 @@ public class Bullet : MonoBehaviour
                 } catch { }
                 
             }
-            Debug.Log(hitInfo.name);
             animator.SetTrigger("impact");
             rb.velocity = Vector2.zero;
         }

@@ -8,14 +8,10 @@ public class Shooting : MonoBehaviour
 {
     public Transform bulletPoint;
     public GameObject bullet;
-    public GameObject laser;
     public PlayerStats stats;
-
-    private GameObject laserShot;
-    private bool isLaser = false;
+    public LineRenderer line;
 
     public Style style;
-
     
     void Update()
     {
@@ -26,37 +22,44 @@ public class Shooting : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
+            StartCoroutine("Shoot");
         }
-
-        if ((Input.GetButtonUp("Fire1") && laserShot != null) || stats.energy <= 0f)
-        {
-            Destroy(laserShot);
-            isLaser = false;
-        }
-
-        if (isLaser) stats.energy -= Time.deltaTime * 20;
-
     }
 
-    void Shoot()
+    IEnumerator Shoot()
     {
         if (style == Style.Normal)
         {
             Instantiate(bullet, bulletPoint.position, bulletPoint.rotation);
+            yield return new WaitForSeconds(0.1f);
         }
         else
         {
-            isLaser = true;
-            laserShot = Instantiate(laser, bulletPoint.position, bulletPoint.rotation);
-            laserShot.GetComponent<Laser>().ShotLaser(bulletPoint); 
+            RaycastHit2D hitInfo = Physics2D.Raycast(bulletPoint.position, bulletPoint.right);
+            Debug.Log(hitInfo.transform.name);
+            if (!hitInfo.transform.CompareTag("Player"))
+            {
+                try
+                {
+                    hitInfo.transform.GetComponent<Hitable>().Execute(Style.Charged);
+                }
+                catch { }
+
+                line.SetPosition(0, bulletPoint.position);
+                line.SetPosition(1, hitInfo.point);
+            }
+
+            line.enabled = true;
+            yield return new WaitForSeconds(0.02f);
+            line.enabled = false;
         }
     }
-
 
     void AlternateStyle()
     {
         if (style == Style.Normal) style = Style.Charged;
         else style = Style.Normal;
+
+        stats.ChangeShotImage(style);
     }
 }

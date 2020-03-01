@@ -10,7 +10,9 @@ public class EnemyRat : MonoBehaviour, Hitable
     private int constantDamage = 30;
     public int health = 100;
     private bool isDead;
-    public List<GameObject> wayPoints;
+    public float speed = 2f;
+
+    public bool moveRight = false;
 
     void Start()
     {
@@ -20,8 +22,36 @@ public class EnemyRat : MonoBehaviour, Hitable
 
     void Update()
     {
-        Behaviour();
+        if (moveRight)
+        {
+            transform.Translate(2 * Time.deltaTime * speed, 0, 0);
+            transform.localScale = new Vector2(-1, 1);
+        }
+        else if (!moveRight)
+        {
+            transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
+            transform.localScale = new Vector2(1, 1);
+        }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Turn"))
+        {
+            if (moveRight) moveRight = false;
+            else moveRight = true;
+        }
+        
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.transform.CompareTag("Player"))
+        {
+            col.transform.GetComponent<PlayerController>().Hited();
+        }
+    }
+
 
     public void Execute(Style style)
     {
@@ -47,13 +77,9 @@ public class EnemyRat : MonoBehaviour, Hitable
         }
     }
 
+
     void Die()
     {
         Destroy(gameObject);
-    }
-
-    private void Behaviour()
-    {
-
     }
 }

@@ -16,7 +16,12 @@ public class ItemController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) ItemPicked(); 
+        if (collision.CompareTag("Player"))
+        {
+            ItemPicked();
+            collision.GetComponent<PlayerStats>().IncreaseScore((int)type);
+        }
+            
     }
 
     public void DestroyMe()

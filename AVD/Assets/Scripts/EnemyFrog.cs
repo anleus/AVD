@@ -15,9 +15,9 @@ public class EnemyFrog : MonoBehaviour, Hitable
         animator = GetComponent<Animator>();
     }
 
-    void Update()
+    public void Execute(Style style)
     {
-        
+        TakeDamage(style);
     }
 
     void Die()
@@ -45,8 +45,13 @@ public class EnemyFrog : MonoBehaviour, Hitable
         }
     }
 
-    public void Execute(Style style)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        TakeDamage(style);
+        if (col.transform.CompareTag("Player"))
+        {
+            col.transform.GetComponent<PlayerController>().Hited();
+        }
     }
+
+
 }

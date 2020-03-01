@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 94873782402031279}
   - component: {fileID: 6496081104867566416}
   - component: {fileID: 6260996395080522777}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Soft Box
   m_TagString: Hitable
   m_Icon: {fileID: 0}

@@ -21,6 +21,7 @@ public class Laser : MonoBehaviour
                 if (timer > 0) timer -= Time.deltaTime;
                 if (timer <= 0)
                 {
+                    Debug.Log(objective.name);
                     objective.GetComponent<Hitable>().Execute(Style.Charged);
                     timer = 0.5f;
                 }
