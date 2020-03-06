@@ -4,27 +4,30 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
+    [SerializeField] int canonNum = 0;
+    [SerializeField] float frequency = 0.3f;
+
     public GameObject bullet;
-    public Transform point1;
-    public Transform point2;
-    public Transform point3;
-    public Transform point4;
+    public Transform[] bulletPoints;
+    public Animator[] canonAnimator;
 
-    // Update is called once per frame
-
-    private void Update()
+    void Start()
     {
-        if (Input.GetKeyDown("Fire1")) Shot();
+        StartCoroutine("Shot");
     }
 
-    public void Shot()
+    IEnumerator Shot()
     {
-        Instantiate(bullet, point1.position, point1.rotation);
-        
-        Instantiate(bullet, point2.position, point2.rotation);
-     
-        Instantiate(bullet, point3.position, point3.rotation);
-  
-        Instantiate(bullet, point4.position, point4.rotation);
+        canonNum++;
+        if (canonNum >= bulletPoints.Length)
+        {
+            canonNum = 0;
+        }
+
+        Instantiate(bullet, bulletPoints[canonNum].position, bulletPoints[canonNum].rotation);
+        Debug.Log("bala disaparada");
+
+        yield return new WaitForSeconds(frequency);
+        StartCoroutine("Shot");
     }
 }
