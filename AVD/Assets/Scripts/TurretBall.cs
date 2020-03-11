@@ -26,7 +26,7 @@ public class TurretBall : MonoBehaviour
     {
         if (layerMask == (layerMask | (1 << collision.gameObject.layer)))
         {
-            Instantiate(turret, collision.transform.position + new Vector3(0f, 0.5f, 0f), collision.transform.rotation);
+            Instantiate(turret, transform.position + new Vector3(0f, 0.62f, 0f), collision.transform.rotation);
         }
 
         Destroy(gameObject);

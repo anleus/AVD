@@ -5,16 +5,28 @@ using UnityEngine;
 public class Bullet3D : MonoBehaviour
 {
     public Rigidbody rb;
-    public float speed = 5f;
+    public float speed = 15f;
+    public LayerMask layerMask;
+
     // Start is called before the first frame update
     void Start()
     {
-        rb.AddForce(0, 0, speed, ForceMode.Impulse);
+        rb.AddForce(Vector3.forward * speed, ForceMode.Impulse);
+        Destroy(gameObject, 3f);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Enemy hited");
+        }
+
+        if (layerMask == (layerMask | (1 << collision.gameObject.layer)))
+        {
+            Destroy(gameObject);
+        }
+
+        //Destroy(gameObject);
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hitable
   - Turn
+  - Enemy
   layers:
   - Default
   - TransparentFX

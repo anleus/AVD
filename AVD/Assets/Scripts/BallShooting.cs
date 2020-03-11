@@ -6,7 +6,7 @@ public class BallShooting : MonoBehaviour
 {
     public GameObject ball;
     private GameObject createdBall;
-    [SerializeField] float speed;
+    [SerializeField] private float speed;
 
     // Start is called before the first frame update
     void Start()
