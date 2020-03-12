@@ -8,31 +8,30 @@ public class BallShooting : MonoBehaviour
     private GameObject createdBall;
     [SerializeField] private float speed;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            Vector3 clickPosition = -Vector3.one;
 
-            Vector3 direction = mousePosition - transform.position;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
 
-            //RaycastHit hitPosition = Physics.Raycast(transform.position, direction);
+            if (Physics.Raycast(ray, out hit)) {
+                clickPosition = hit.point;
+
+                Vector3 direction = clickPosition - transform.position;
+                direction.Normalize();
             
-            ShotBall(mousePosition);
+                ShotBall(direction);
+            }    
         }
     }
 
-    void ShotBall(Vector3 position)
+    void ShotBall(Vector3 shotDirection)
     {
         createdBall = Instantiate(ball, transform.position, transform.rotation);
-        createdBall.GetComponent<Rigidbody>().AddForce(transform.forward * speed, ForceMode.Impulse);
+        createdBall.GetComponent<Rigidbody>().AddForce(shotDirection * speed, ForceMode.Impulse);
     }
 }

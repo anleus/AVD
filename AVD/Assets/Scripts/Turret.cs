@@ -34,7 +34,6 @@ public class Turret : MonoBehaviour
 
         Instantiate(bullet, bulletPoints[canonNum].position, bulletPoints[canonNum].rotation);
         canonAnimator[canonNum].SetTrigger("Shot");
-        Debug.Log("bala disaparada");
 
         yield return new WaitForSeconds(frequency);
         StartCoroutine("Shot");
