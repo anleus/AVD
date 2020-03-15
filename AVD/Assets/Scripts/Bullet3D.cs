@@ -12,28 +12,23 @@ public class Bullet3D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb.AddForce(Vector3.forward * speed, ForceMode.Impulse);
+        rb.AddForce(transform.forward * speed, ForceMode.Impulse);
         Destroy(gameObject, 3f);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
-        {   
-            Instantiate(
-                explosionParticles,
-                collision.transform.position, 
-                collision.transform.rotation);
-                
-            Debug.Log("Enemy hited");
+        {
+            collision.gameObject.GetComponent<OldEnemy>().Die();
+            rb.Sleep();
         }
 
         if (layerMask == (layerMask | (1 << collision.gameObject.layer)))
         {
-            Debug.Log("ground hited");
-            Destroy(gameObject);
+            rb.Sleep();    
         }
-
-        //Destroy(gameObject);
+        explosionParticles.SetActive(true);
+        Destroy(gameObject, 0.8f);
     }
 }

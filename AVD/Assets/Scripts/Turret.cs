@@ -8,14 +8,16 @@ public class Turret : MonoBehaviour
     [SerializeField] float frequency = 0.3f;
 
     public GameObject bullet;
+    public Animator turretAnimator;
     public Transform[] bulletPoints;
     public Animator[] canonAnimator;
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetMouseButton(0))
         {
             StopAllCoroutines();
+            Die();
         }
     }
 
@@ -26,16 +28,22 @@ public class Turret : MonoBehaviour
 
     IEnumerator Shot()
     {
+        Instantiate(bullet, bulletPoints[canonNum].position, bulletPoints[canonNum].rotation);
+        canonAnimator[canonNum].SetTrigger("Shot");
+
         canonNum++;
         if (canonNum >= bulletPoints.Length)
         {
             canonNum = 0;
         }
 
-        Instantiate(bullet, bulletPoints[canonNum].position, bulletPoints[canonNum].rotation);
-        canonAnimator[canonNum].SetTrigger("Shot");
-
         yield return new WaitForSeconds(frequency);
         StartCoroutine("Shot");
+    }
+
+    public void Die()
+    {
+        turretAnimator.SetTrigger("dead");
+        Destroy(gameObject, 1);
     }
 }

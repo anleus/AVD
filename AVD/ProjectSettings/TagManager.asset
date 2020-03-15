@@ -7,6 +7,7 @@ TagManager:
   - Hitable
   - Turn
   - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX

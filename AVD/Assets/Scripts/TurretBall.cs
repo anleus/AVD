@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class TurretBall : MonoBehaviour
 {
-    // Start is called before the first frame update
     public LayerMask layerMask;
     public GameObject turret;
+    public Animator animator;
 
     private Rigidbody rb;
-    private Transform hit;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Destroy(gameObject, 3f);
     }
 
-    // Update is called once per frame
     void Update()
     {
         rb.AddTorque(transform.forward);
@@ -24,11 +23,19 @@ public class TurretBall : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (layerMask == (layerMask | (1 << collision.gameObject.layer)))
+        if (collision.gameObject.CompareTag("Wall"))
         {
-            Instantiate(turret, transform.position + new Vector3(0f, 0.62f, 0f), collision.transform.rotation);
+            animator.SetTrigger("badHit");
         }
+        else if (layerMask == (layerMask | (1 << collision.gameObject.layer)))
+        {
+            Instantiate(turret, transform.position + new Vector3(0f, 0.5f, 0f), collision.transform.rotation);
+            Die();
+        }     
+    }
 
+    public void Die()
+    {
         Destroy(gameObject);
     }
 }

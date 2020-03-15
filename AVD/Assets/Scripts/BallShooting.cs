@@ -8,7 +8,6 @@ public class BallShooting : MonoBehaviour
     private GameObject createdBall;
     [SerializeField] private float speed;
 
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
