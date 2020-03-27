@@ -7,6 +7,7 @@ public class MoveTo : MonoBehaviour
 {
     RaycastHit hitInfo = new RaycastHit();
     NavMeshAgent agent;
+    public GameObject flag;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,8 @@ public class MoveTo : MonoBehaviour
             if (Physics.Raycast(ray.origin, ray.direction, out hitInfo))
             {
                 agent.destination = hitInfo.point;
+                flag.transform.position = hitInfo.point;
+                flag.GetComponent<Animator>().SetBool("active", true);
             }
         }
     }

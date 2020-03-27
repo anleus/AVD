@@ -8,6 +8,8 @@ TagManager:
   - Turn
   - Enemy
   - Wall
+  - Disco
+  - Flag
   layers:
   - Default
   - TransparentFX

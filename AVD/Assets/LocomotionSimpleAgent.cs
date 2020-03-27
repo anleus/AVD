@@ -9,6 +9,7 @@ public class LocomotionSimpleAgent : MonoBehaviour
     NavMeshAgent agent;
     Vector2 smoothDeltaPosition = Vector2.zero;
     Vector2 velocity = Vector2.zero;
+    public TimeLineController TLControl;
 
     void Start()
     {
@@ -49,7 +50,20 @@ public class LocomotionSimpleAgent : MonoBehaviour
     {
         // Update position to agent position
         transform.position = agent.nextPosition;
+    }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Disco"))
+        {
+            anim.SetTrigger("dance");
+            velocity = Vector2.zero;
+            TLControl.Play();
+        }
 
+        if (other.CompareTag("Flag"))
+        {
+            other.gameObject.GetComponent<Animator>().SetBool("active", false);
+        }
     }
 }
