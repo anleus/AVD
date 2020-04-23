@@ -67,9 +67,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 2085631143568663937}
   speed: 15
-  layerMask:
+  badLayer:
     serializedVersion: 2
-    m_Bits: 65536
+    m_Bits: 256
+  goodLayer:
+    serializedVersion: 2
+    m_Bits: 2048
   explosionParticles: {fileID: 7648439621151436353}
 --- !u!23 &3442115047102660336
 MeshRenderer:

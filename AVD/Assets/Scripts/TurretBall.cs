@@ -7,6 +7,7 @@ public class TurretBall : MonoBehaviour
     public LayerMask layerMask;
     public GameObject turret;
     public Animator animator;
+    public Transform playerTransform;
 
     private Rigidbody rb;
 
@@ -29,7 +30,7 @@ public class TurretBall : MonoBehaviour
         }
         else if (layerMask == (layerMask | (1 << collision.gameObject.layer)))
         {
-            Instantiate(turret, transform.position + new Vector3(0f, 0.5f, 0f), collision.transform.rotation);
+            Instantiate(turret, transform.position + new Vector3(0f, 0.5f, 0f), playerTransform.rotation);
             Die();
         }     
     }

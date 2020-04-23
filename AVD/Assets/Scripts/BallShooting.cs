@@ -5,32 +5,27 @@ using UnityEngine;
 public class BallShooting : MonoBehaviour
 {
     public GameObject ball;
+    public Transform origin;
+    public Animator animator;
     private GameObject createdBall;
+    [SerializeField] float timeToShot = 0.38f;
     [SerializeField] private float speed;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Q)) 
         {
-            Vector3 clickPosition = -Vector3.one;
+            animator.SetTrigger("throw");
 
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit)) {
-                clickPosition = hit.point;
-
-                Vector3 direction = clickPosition - transform.position;
-                direction.Normalize();
-            
-                ShotBall(direction);
-            }    
+            StartCoroutine(ShotBall(transform.forward));
         }
     }
 
-    void ShotBall(Vector3 shotDirection)
+    IEnumerator ShotBall(Vector3 shotDirection)
     {
-        createdBall = Instantiate(ball, transform.position, transform.rotation);
+        yield return new WaitForSeconds(timeToShot);
+        createdBall = Instantiate(ball, origin.position, origin.rotation);
+        createdBall.GetComponent<TurretBall>().playerTransform = transform;
         createdBall.GetComponent<Rigidbody>().AddForce(shotDirection * speed, ForceMode.Impulse);
     }
 }

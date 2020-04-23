@@ -5,15 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class CanvasController : MonoBehaviour
 {
-    public Animator titleAnimator;
+    private Animator animator;
+
+    void Awake() 
+    {
+        animator = GetComponent<Animator>();    
+    }
 
     public void LoadSelectedScene(int i)
     {
         SceneManager.LoadSceneAsync(i);
     }
 
-    public void TitleAction()
+    public void OpenCredits() 
     {
-        titleAnimator.SetTrigger("touched");
+        animator.SetBool("credits", true);
+    }
+
+    public void CloseCredits() 
+    {
+        animator.SetBool("credits", false);
     }
 }
